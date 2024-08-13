@@ -4,6 +4,9 @@
 HTTP SSL Proxy
 ---------------
 
+
+# httpd.conf 설정 파일의 VirstHost 설정
+
 '''
 <VirtualHost *:80>
     ServerAdmin webmaster@mail.com            # 관리자 메일 주소
