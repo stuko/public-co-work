@@ -29,8 +29,8 @@ HTTP SSL Proxy
         SSLProxyCheckPeerCN off
         SSLProxyCheckPeerName off
         SSLProxyCheckPeerExpire off
-        ProxyPass / https://49.247.7.108:8443/             # 목적지 SSL 주소
-        ProxyPassReverse / https://49.247.7.108:8443/      # 목적지 SSL 주소
+        ProxyPass / https://target.web.site/             # 목적지 SSL 주소
+        ProxyPassReverse / https://target.web.site/      # 목적지 SSL 주소
 
         ErrorLog "logs/domain-error_log"
         CustomLog "logs/domain-access_log" common
