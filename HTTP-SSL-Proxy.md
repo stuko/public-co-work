@@ -5,7 +5,7 @@ HTTP SSL Proxy
 ---------------
 
 
-# httpd.conf 설정 파일의 VirstHost 설정
+### httpd.conf 설정 파일의 VirstHost 설정
 
 '''
 <VirtualHost *:80>
