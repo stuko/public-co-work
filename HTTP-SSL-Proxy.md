@@ -7,6 +7,8 @@ HTTP SSL Proxy
 
 ### httpd.conf 설정 파일의 VirstHost 설정
 
+> 아파치에서 원격 웹서버와 SSL 통신을 하도록 설정하는 경우
+
 '''
 <VirtualHost *:80>
     ServerAdmin webmaster@mail.com            # 관리자 메일 주소
